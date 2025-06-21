@@ -318,14 +318,29 @@ body.dark-mode {
     font-size: 1.8rem;
   }
 }
-.one1{
-  border:none;
+.one1 {
+  border: none;
   background-color: rgb(45, 230, 45);
   border-radius: 25px;
-  height:30px;
-  width:70px;
+  height: 30px;
+  width: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
-.zero{
+
+.one1:hover {
+  background-color: #28c928;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.zero {
   font-size: 13px;
+  font-weight: 600;
+  color: white;
 }
+
 
