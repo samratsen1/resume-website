@@ -347,5 +347,9 @@ body.dark-mode {
   color: white;
 }
 
+/* Add this to your styles.css */
+section {
+  scroll-margin-top: 80px; /* Adjust this number to match your navbar height */
+}
 
 
